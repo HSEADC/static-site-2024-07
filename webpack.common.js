@@ -97,27 +97,27 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: './src/articles/article-item.html',
-      filename: '.articles/article-item.html'
+      filename: './articles/article-item.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/cards/card-item.html',
-      filename: '.cards/cards-item.html'
+      filename: './cards/cards-item.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/interviews/interview-item.html',
-      filename: '.interviews/interview-item.html'
+      filename: './interviews/interview-item.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/merch-items/merch-item.html',
-      filename: '.merch-items/merch-item.html'
+      filename: './merch-items/merch-item.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/tutorials/tutorial-item.html',
-      filename: '.tutorials/tutorial-item.html'
+      filename: './tutorials/tutorial-item.html'
     }),
 
 
